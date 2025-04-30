@@ -32,8 +32,8 @@ ConfigScanner is an advanced web application security tool designed to identify 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/configscanner.git
-cd configscanner
+git clone https://github.com/yourusername/ConfigScanner.git
+cd ConfigScanner
 
 # Install dependencies
 pip install -r 
