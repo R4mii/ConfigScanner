@@ -54,13 +54,13 @@ pip install -r
 ### Basic Usage
 
 ```bash
-python configscanner.py -l domains.txt
+python ConfigScanner.py -l domains.txt
 ```
 
 ### Command Line Arguments
 
 ```
-usage: configscanner.py [-h] [-l LIST] [-t THREADS] [-o OUTPUT] [-T TIMEOUT] [-v] [-s SINGLE] [-n]
+usage: ConfigScanner.py [-h] [-l LIST] [-t THREADS] [-o OUTPUT] [-T TIMEOUT] [-v] [-s SINGLE] [-n]
 
 Advanced Configuration Scanner with Credential Testing
 
@@ -83,27 +83,27 @@ options:
 
 Scan a single domain:
 ```bash
-python configscanner.py -s example.com
+python ConfigScanner.py -s example.com
 ```
 
 Scan multiple domains from a file with 20 threads:
 ```bash
-python configscanner.py -l domains.txt -t 20
+python ConfigScanner.py -l domains.txt -t 20
 ```
 
 Scan with verbose output and custom timeout:
 ```bash
-python configscanner.py -l domains.txt -v -T 30
+python ConfigScanner.py -l domains.txt -v -T 30
 ```
 
 Scan without credential testing:
 ```bash
-python configscanner.py -l domains.txt -n
+python ConfigScanner.py -l domains.txt -n
 ```
 
 Custom output directory:
 ```bash
-python configscanner.py -l domains.txt -o /path/to/output
+python ConfigScanner.py -l domains.txt -o /path/to/output
 ```
 
 ## Output
