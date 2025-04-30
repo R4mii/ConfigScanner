@@ -1,0 +1,7 @@
+requests>=2.25.0
+colorama>=0.4.4
+tqdm>=4.60.0
+boto3>=1.17.0
+twilio>=7.0.0
+urllib3>=1.26.5
+argparse>=1.4.0
