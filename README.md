@@ -2,7 +2,6 @@
 
 A powerful configuration file and credential scanner for web applications security assessment.
 
-![ConfigScanner Banner](https://via.placeholder.com/800x200?text=ConfigScanner)
 
 ## Overview
 
